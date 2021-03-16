@@ -6,7 +6,7 @@ metadata:
   labels:
     app: pacman-app
   annotations:
-    apps.open-cluster-management.io/git-path: app-lifecycle/pacman-app/pacman
+    apps.open-cluster-management.io/git-path: app-lifecycle/pacman/
     apps.open-cluster-management.io/git-branch: master
 spec:
   channel: pacman/pacman-ch
