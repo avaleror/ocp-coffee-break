@@ -59,4 +59,4 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-      - {key: environment, operator: In, values: ["pro"]}
+      - {key: environment, operator: In, values: ["dev"]}
