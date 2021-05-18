@@ -15,7 +15,8 @@ spec:
         name: mongo
     spec:
       containers:
-      - image: bitnami/mongodb:latest
+      #- image: bitnami/mongodb:latest
+      - image: quay.io/avalero/pacman-app:mongodb
         name: mongo
         ports:
         - name: mongo
