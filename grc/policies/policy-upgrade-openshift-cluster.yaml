@@ -30,11 +30,11 @@ spec:
                 spec:
                   channel: stable-4.7
                   desiredUpdate:
-                    version: 4.7.2
+                    version: 4.7.13
                   upstream: 'https://api.openshift.com/api/upgrades_info/v1/graph'
           remediationAction: inform
           severity: high
-  remediationAction: enforce
+  remediationAction: inform
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
