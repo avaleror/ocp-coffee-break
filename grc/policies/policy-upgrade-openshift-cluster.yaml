@@ -59,4 +59,4 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-      - {key: clusterversion, operator: In, values: ["4.7.13"]}
+      - {key: openshiftVersion, operator: In, values: ["4.7.13"]}
